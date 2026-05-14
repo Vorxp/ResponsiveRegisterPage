@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <form class="register-box" id="registerForm">
+        <h3 id="title">Register</h3>
+        <span id="subtitle">Create your account. It's free and only takes a minute.</span>
+
+        <div class="name-row">
+            <input type="text" id="firstname" class="first-name" placeholder="First Name" required>
+            <input type="text" id="lastname" class="last-name" placeholder="Last Name" required>
+        </div>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+
+        <button type="submit" id="registerButton">
+            Register
+        </button>
+
+        <p id="result"></p>
+    </form>
+    <script src="registerPage.js"></script>
+</body>
+
+</html>
