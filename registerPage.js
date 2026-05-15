@@ -6,7 +6,7 @@ document.getElementById('registerForm').addEventListener('submit', function(even
     const confirmPassword = document.getElementById('confirmPassword').value;
     
     if (password !== confirmPassword) {
-        alert('รหัสผ่านไม่ตรงกัน');
+        document.getElementById('result').innerHTML = 'รหัสผ่านไม่ตรงกัน โปรดลองอีกครั้ง';
         return;
     }
     

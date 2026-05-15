@@ -84,8 +84,8 @@ button:hover {
 }
 
 #result{
-    margin-top: 15px;
     text-align: center;
+    color: red;
 }
 
 @media (max-width: 1024px) {
