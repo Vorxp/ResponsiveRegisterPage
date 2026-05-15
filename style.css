@@ -37,7 +37,7 @@ h3{
 
 span{
     color: gray;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     display: block;
     margin-bottom: 30px;
@@ -62,7 +62,7 @@ input {
     margin-bottom: 20px;
     border: none;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 
@@ -88,8 +88,58 @@ button:hover {
     text-align: center;
 }
 
-/* Responsive Design */
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
+    .register-box {
+        padding: 28px;
+    }
+    
+    h3 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    
+    span {
+        font-size: 16px;
+    }
+    
+    input {
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+    button {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .register-box {
+        padding: 25px;
+    }
+    
+    h3 {
+        font-size: 30px;
+        margin-bottom: 18px;
+    }
+    
+    span {
+        font-size: 12px;
+    }
+    
+    input {
+        padding: 12px;
+        font-size: 14px;
+    }
+    
+    button {
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+    
+}
+
+@media (max-width: 600px) {
     .register-box {
         padding: 20px;
     }
@@ -111,19 +161,5 @@ button:hover {
     button {
         padding: 10px 15px;
         font-size: 14px;
-    }
-}
-
-@media (max-width: 320px) {
-    .register-box {
-        padding: 15px;
-    }
-    
-    h3 {
-        font-size: 24px;
-    }
-    
-    input {
-        padding: 8px;
     }
 }
